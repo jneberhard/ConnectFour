@@ -1,0 +1,107 @@
+div[b-2hsj6j6moh] {
+    position: relative;
+}
+
+nav[b-2hsj6j6moh] {
+    top: 4em;
+    width: 30em;
+    display: inline-flex;
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+nav span[b-2hsj6j6moh] {
+    width: 4em;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+div.board[b-2hsj6j6moh] {
+    margin-top: 1em;
+    width: 30em;
+    height: 24em;
+    overflow: hidden;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    z-index: 10;
+    row-gap: 0;
+    pointer-events: none;
+    border-left: 10px solid var(--board-bg);
+}
+
+span.container[b-2hsj6j6moh] {
+    width: 4em;
+    height: 4em;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    z-index: 11;
+    pointer-events: none;
+}
+
+.container span[b-2hsj6j6moh] {
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3em var(--board-bg);
+    left: 0.25em;
+    top: 0.25em;
+    position: absolute;
+    display: block;
+    z-index: 12;
+    pointer-events: none;
+}
+
+.scoreboard h2[b-2hsj6j6moh] {
+    font-size: 20px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.player1[b-2hsj6j6moh],
+.player2[b-2hsj6j6moh] {
+    position: absolute;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    z-index: 1;
+    animation: drop-piece-b-2hsj6j6moh 0.4s ease-in;
+}
+
+.player1[b-2hsj6j6moh] {
+    background-color: var(--player1);
+}
+
+.player2[b-2hsj6j6moh] {
+    background-color: var(--player2);
+}
+
+.col0[b-2hsj6j6moh] { left: calc(10px + 0.25em); }
+.col1[b-2hsj6j6moh] { left: calc(10px + 4.25em); }
+.col2[b-2hsj6j6moh] { left: calc(10px + 8.25em); }
+.col3[b-2hsj6j6moh] { left: calc(10px + 12.25em); }
+.col4[b-2hsj6j6moh] { left: calc(10px + 16.25em); }
+.col5[b-2hsj6j6moh] { left: calc(10px + 20.25em); }
+.col6[b-2hsj6j6moh] { left: calc(10px + 24.25em); }
+
+.drop1[b-2hsj6j6moh] { top: 1.25em; }
+.drop2[b-2hsj6j6moh] { top: 5.25em; }
+.drop3[b-2hsj6j6moh] { top: 9.25em; }
+.drop4[b-2hsj6j6moh] { top: 13.25em; }
+.drop5[b-2hsj6j6moh] { top: 17.25em; }
+.drop6[b-2hsj6j6moh] { top: 21.25em; }
+
+
+@keyframes drop-piece-b-2hsj6j6moh {
+    from {
+        transform: translateY(-24em);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
