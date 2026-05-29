@@ -83,5 +83,5 @@ C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\ConnectFour.pdb
 C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\ConnectFour.genruntimeconfig.cache
 C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\ref\ConnectFour.dll
 C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\scopedcss\Components\Board.razor.rz.scp.css
-C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-22v2veoze7-22v2veoze7.gz
-C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-22v2veoze7-22v2veoze7.gz
+C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\compressed\8t7ubqbmk6-{0}-9z3njlu5vj-9z3njlu5vj.gz
+C:\Users\jrebe\Desktop\CSE325\ConnectFour\obj\Debug\net10.0\compressed\qps0edvuu1-{0}-9z3njlu5vj-9z3njlu5vj.gz
